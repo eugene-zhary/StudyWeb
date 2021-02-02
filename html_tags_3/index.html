@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <!--inputs-->
+        <!--disabled - делает поле недоступным-->
+        <!--tabindex - задет порядок перехода по элементам ввода по нажатию tab-->
+        <div>
+            <input tabindex="1" type="text" name="username" placeholder="username">
+        </div>
+        <br>
+
+        <div>
+            <input tabindex="2" type="password" name="userpass" placeholder="password">
+        </div>
+        <br>
+
+        <div>
+            <input tabindex="3" name="userphone" type="tel" placeholder="phone number">
+        </div>
+        <br>
+
+        <div>
+            <p>Sex:</p>
+            <div>
+                <input tabindex="4" checked type="radio" name="gender" value="male"> male
+            </div>
+            <div>
+                <input tabindex="4" type="radio" name="gender" value="female"> female
+            </div>
+        </div>
+
+        <div>
+            <p>Property:</p>
+            <div>
+                <input tabindex="5" checked type="checkbox" name="bike" value="yes">bike
+            </div>
+            <div>
+                <input tabindex="6" type="checkbox" name="car" value="yes">car
+            </div>
+            <div>
+                <input tabindex="7" disabled type="checkbox" name="house" value="yes">house
+            </div>
+        </div>
+
+
+        <div>
+            <p>Additional information</p>
+            <!--многострочное поле ввода-->
+            <textarea tabindex="8" name="text"></textarea>
+        </div>
+        <div>
+            <p>Attach photo</p>
+            <input tabindex="10" type="file" name="foto">
+        </div>
+
+        <div>
+            <p>Favorite color</p>
+            <!--свойство multiply - множественный выбор-->
+            <select name="color">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option selected value="blue">Blue</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Action</p>
+            <!--types: 
+            reset - чистит форму, 
+            submit - отправляет данные на сервер-->
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

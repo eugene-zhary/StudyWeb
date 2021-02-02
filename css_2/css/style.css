@@ -1,0 +1,159 @@
+/*set default style*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+/*--------------------*/
+
+.arial {
+	/*ffa*/
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.fontsize30 {
+	/*fz30*/
+	font-size: 30px;
+}
+
+.italic {
+	/*fsi*/
+	font-style: italic;
+}
+
+.font700 {
+	/*fw800*/
+	font-weight: 700;
+}
+
+.colorred {
+	color: red;
+}
+
+.textright {
+	/*tar*/
+	text-align: right;
+}
+
+.decoration {
+	/*
+	tdu - underline
+	tdl - line-through*/
+	text-decoration: underline;
+	text-decoration: line-through;
+	text-decoration: line-through;
+}
+
+.shadow {
+	/*
+	смещение по горизонтали, 
+	смещение по вертикали, 
+	размер размытия тени, 
+	цвет*/
+	text-shadow: 1px 1px 5px #000;
+}
+
+.uppercase {
+	/*ttc - capitalize
+	ttu - uppercase
+	ttl - lowercase
+	*/
+	text-transform: capitalize;
+}
+
+.ident {
+	/*ti50*/
+	text-indent: 50px;
+}
+
+.lspace {
+	/*ls5*/
+	letter-spacing: 5px;
+}
+
+.wspace {
+	/*ws5*/
+	word-spacing: 5px;
+}
+
+.whitespace {
+	white-space: nowrap;
+}
+
+.lineheight {
+	/*lh25*/
+	line-height: 25px;
+}
