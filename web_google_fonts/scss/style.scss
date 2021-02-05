@@ -1,0 +1,17 @@
+//font's link
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap");
+@import "_nullstyle.scss";
+
+//varible with font name
+$ff_big_shoulders: "Big Shoulders Display";
+
+.text {
+    /*easy to use*/
+    font-family: $ff_big_shoulders;
+
+    font-size: 30px;
+    line-height: 35px;
+    p {
+        margin: 0 0 30px 0;
+    }
+}
