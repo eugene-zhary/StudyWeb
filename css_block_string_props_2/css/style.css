@@ -1,0 +1,131 @@
+/*set default style*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+/*--------------------*/
+
+/*block properties*/
+.example-block {
+	font-size: 50px;
+	margin: 30px;
+
+	/*border props: width style color
+	border styles:
+	-solid
+	-dotted
+	-dashed
+	display one side border-top/bottom/left/right;
+	disable one border side border-top: none;
+	*/
+	border: 10px dashed #000;
+	border-radius: 30px;
+
+	/*box-shadow properties:
+	vertical indent, 
+	horizontal indent, 
+	shadow radius, 
+	shadow size
+	box-shadow supports multipay shadows
+	insent make shadow internal*/
+	box-shadow: 5px 5px 5px 5px rgb(0, 0, 0), inset 5px 5px 5px 5px rgb(255, 0, 0);
+
+	opacity: 0.8;
+
+	/*
+		if visibility hidden can't interact with element
+	*/
+	visibility: visible;
+}
+
+/*string properties*/
+.example-string {
+	/*trimmed border with only width, style and color
+	but works stably unlike border
+	create line out of block
+	*/
+	font-size: 50px;
+	outline: 8px solid #000;
+}
+
+/*img is a string element
+but it support some block properties*/
+.example-img {
+	border: 10px dashed #000;
+	border-radius: 100px;
+	overflow: hidden;
+}
