@@ -1,0 +1,72 @@
+@import "_nullstyle.scss";
+
+body {
+    padding: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.wrapper {
+}
+.block {
+}
+.block__row {
+    //flex - line up elements
+    //inline-flex
+    display: flex;
+
+    //flex-start - press up
+    //flex-end - press down
+    //center
+    align-items: flex-start;
+
+    //nowrap - disable wrapping
+    //wrap - allow wrapping
+    //wrap-reverse
+    flex-wrap: wrap;
+
+    //flex-start
+    //flex-end
+    //space-between - equal space between elements
+    //space-around
+    justify-content: space-between;
+
+    //row-reverse
+    //column
+    //column-reverse
+    flex-direction: column;
+
+    border: 20px solid #ece89d;
+    margin: 0 0 20px 0;
+}
+.block__column {
+    border: 20px solid #5e5373;
+    //main size of a flex item
+    flex-basis: 250px;
+    //1(true), 0(false)
+    flex-grow: 1;
+    //1(true), 0(false)
+    flex-shrink: 1;
+
+    //shrink, grow, basis
+    flex: 1 1 auto;
+}
+.block__item {
+    background-color: #18b5a4;
+    padding: 50px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.block__column_1 {
+    //justify-content for it self
+    align-self: stretch;
+    order: 3;
+}
+.block__column_2 {
+    order: 2;
+}
+.block__column_3 {
+    order: 1;
+}
