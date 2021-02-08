@@ -136,7 +136,7 @@ body {
 }
 
 .header__nav-items li a:visited {
-  color: black;
+  color: #343a40;
 }
 
 .signup {
@@ -229,7 +229,7 @@ body {
 
 .why__causes {
   background: url("../img/macbook.jpg") no-repeat;
-  background-position: right 0px;
+  background-position: right center;
   padding-bottom: 150px;
   display: -ms-grid;
   display: grid;
@@ -333,9 +333,54 @@ body {
 .services__button {
   background-color: #77c344;
   color: white;
+  border: 3px solid #77c344;
   border-radius: 5px;
   font-size: 20px;
   font-weight: bold;
   padding: 20px 40px;
   margin: 0 0 0 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.services__button:hover {
+  color: #77c344;
+  background-color: white;
+  border: 3px solid #77c344;
+  padding: 20px 40px;
+}
+
+.footer {
+  background-color: #f8f8f8;
+}
+
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+}
+
+.footer__nav-items li {
+  margin: 0 15px 0 15px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.footer__nav-items li a:visited {
+  color: #343a40;
 }
