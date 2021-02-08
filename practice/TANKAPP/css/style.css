@@ -89,6 +89,7 @@ h6 {
 
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #343a40;
 }
 
 .wrapper {
@@ -217,4 +218,42 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.why__title {
+  margin: 100px 0;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.why__causes {
+  background: url("../img/macbook.jpg") no-repeat;
+  background-position: right 0px;
+  padding-bottom: 150px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.why__item-tamplate {
+  width: 40%;
+}
+
+.why__item-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.why__item-title p {
+  font-size: 26px;
+  margin: 35px;
+}
+
+.why__item-content {
+  padding: 5px;
+  font-size: 16px;
 }
