@@ -257,3 +257,85 @@ body {
   padding: 5px;
   font-size: 16px;
 }
+
+.diffrents {
+  background-color: #f8f8f8;
+  padding-bottom: 100px;
+}
+
+.diffrents__title {
+  padding: 100px 0 100px 0;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.diffrents__reason {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.diffrents__reason p {
+  font-size: 26px;
+  margin: 35px;
+}
+
+.diffrents__desc {
+  text-align: center;
+  margin: 0 25%;
+  width: 50%;
+  font-size: 20px;
+}
+
+.services {
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.services__title {
+  padding: 100px 0 100px 0;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.services__desc {
+  margin: 30px 0;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+.services__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services__input {
+  width: 500px;
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid #343a40;
+  border-radius: 5px;
+}
+
+.services__button {
+  background-color: #77c344;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 40px;
+  margin: 0 0 0 30px;
+}
