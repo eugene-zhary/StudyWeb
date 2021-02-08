@@ -88,8 +88,22 @@ h6 {
 }
 
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #343a40;
+}
+
+a {
+  color: #343a40;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:visited {
+  color: #343a40;
+}
+
+a:hover {
+  color: #65a7d7;
 }
 
 .wrapper {
@@ -133,10 +147,6 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-}
-
-.header__nav-items li a:visited {
-  color: #343a40;
 }
 
 .signup {
@@ -229,14 +239,14 @@ body {
 
 .why__causes {
   background: url("../img/macbook.jpg") no-repeat;
-  background-position: right center;
+  background-position: 600px center;
   padding-bottom: 150px;
   display: -ms-grid;
   display: grid;
 }
 
 .why__item-tamplate {
-  width: 40%;
+  width: 600px;
 }
 
 .why__item-title {
@@ -379,8 +389,4 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-}
-
-.footer__nav-items li a:visited {
-  color: #343a40;
 }

@@ -1,8 +1,19 @@
 @import "_nullstyle.scss";
 //margin/padding: top right bottom left
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #343a40;
+}
+
+a {
+    color: #343a40;
+    transition: 0.3s;
+}
+a:visited {
+    color: #343a40;
+}
+a:hover {
+    color: rgb(101, 167, 215);
 }
 
 .wrapper {
@@ -34,10 +45,6 @@ body {
     &__nav-items li {
         margin: 0 15px 0 15px;
         align-self: center;
-    }
-
-    &__nav-items li a:visited {
-        color: #343a40;
     }
 }
 
@@ -124,13 +131,13 @@ body {
 
     &__causes {
         background: url("../img/macbook.jpg") no-repeat;
-        background-position: right center;
+        background-position: 600px center;
         padding-bottom: 150px;
         display: grid;
     }
 
     &__item-tamplate {
-        width: 40%;
+        width: 600px;
     }
     &__item-title {
         display: flex;
@@ -244,13 +251,10 @@ body {
         margin: 0 15px 0 15px;
         align-self: center;
     }
-
-    &__nav-items li a:visited {
-        color: #343a40;
-    }
 }
 
 //TODO: burger-menu
 @media screen and (max-width: 900px) {
     //TODO: resize for mobile
+    //1024, 760, 480, 360
 }
