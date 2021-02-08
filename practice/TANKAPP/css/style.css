@@ -89,39 +89,38 @@ h6 {
 
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  background-color: #65a7d7;
 }
 
 .wrapper {
-  min-height: 100%;
-  overflow: hidden;
+  max-width: 1280px;
+  margin: 0px auto;
 }
 
 .logo {
+  margin: 0 0 0 20px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
 .header {
-  padding: 10px;
-  height: 100px;
-  background-color: #fff;
+  background-color: white;
 }
 
 .header__content {
-  max-width: 1280px;
-  margin: 0px auto;
-  height: 100%;
+  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .header__nav-items {
+  font-size: 24px;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,7 +128,6 @@ body {
 }
 
 .header__nav-items li {
-  font-size: 22px;
   margin: 0 15px 0 15px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -138,4 +136,85 @@ body {
 
 .header__nav-items li a:visited {
   color: black;
+}
+
+.signup {
+  background: no-repeat url("../img/first.png");
+  background-position: center 100px;
+  background-color: #65a7d7;
+  color: white;
+  -webkit-box-shadow: inset 0px 1px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: inset 0px 1px 15px rgba(0, 0, 0, 0.4);
+}
+
+.signup__content {
+  padding: 20px;
+}
+
+.signup__title {
+  margin: 240px 0 0 0;
+  line-height: 60px;
+  font-size: 42px;
+}
+
+.signup__desc {
+  margin: 40px 0 0 0;
+  font-size: 24px;
+}
+
+.signup__free {
+  margin: 0 0 230px 0;
+}
+
+.signup__free span {
+  background-color: #ffce54;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.signup__free p {
+  margin: 70px 0 25px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.signup__input {
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.signup__button {
+  margin: 0 0 0 25px;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #77c344;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #77c344;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.signup__button:hover {
+  border: 2px solid #77c344;
+  background-color: white;
+  padding: 8px;
+  color: #77c344;
+}
+
+.networks {
+  background-color: #f8f8f8;
+}
+
+.networks__links {
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
