@@ -1,3 +1,6 @@
-[submodule "oxygen"]
-	path = oxygen
+[submodule "projects/oxygen"]
+	path = projects/oxygen
 	url = https://github.com/eugene-zhary/oxygen.git
+[submodule "projects/tankapp"]
+	path = projects/tankapp
+	url = https://github.com/eugene-zhary/tankapp.git
