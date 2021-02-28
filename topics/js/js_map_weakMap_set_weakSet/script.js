@@ -148,3 +148,16 @@ weakSet.has(john); // true
 john = null
 
 weakSet.has(john); // false
+
+//
+//  Object.keys, values, entries
+//
+
+let user = {
+    name: "Tom",
+    age: 18
+};
+
+Object.keys(user); // name,age
+Object.values(user); // Tom,18
+Object.entries(user); // name,Tom,age,18
